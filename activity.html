@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Activity</title>
+    <meta charset="utf-8"/>
+    <style type="text/css" media="screen">
+      body {
+        background: white;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+    	.content {
+      	width: 1190px;
+      	height: 1650px;
+        background: url('background.jpg');
+        background-size: cover;
+        display: block;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 40px 120px 20px 120px;
+    	}
+    	.intro {
+      	font-family: Avenir Next, Arial, sans-serif;
+      	text-align: center;
+    	}
+    	.intro h2 {
+      	font-weight: 500;
+      	text-transform: uppercase;
+      	font-size: 30px;
+      	position: relative;
+      	padding-bottom: 30px;
+    	}
+    	.intro h2:after {
+        content: '';
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        height: 4px;
+        width: 70px;
+        background: white;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    	}
+    	.intro p {
+      	font-size: 25px;
+      	display: block;
+      	width: 600px;
+      	margin: 0 auto;
+    	}
+    	.info {
+      	font-size: 20px;
+      	text-align: center;
+      	background: rgba(255, 255, 255, 0.1);
+      	color: white;
+      	background-blend-mode: soft-light;
+      	padding: 30px;
+      	margin-top: 60px;
+      	border-radius: 4px;
+    	}
+    	.info p:first-of-type {
+      	color: rgba(255,255,255,0.6);
+    	}
+    	.info p:nth-of-type(2) {
+      	color: rgba(255,255,255,0.6);
+    	}
+    	.contest {
+      	width: 100%;
+      	display: block;
+      	padding: 0;
+      	margin-top: 40px;
+    	}
+    	.contest .container {
+      	width: 50%;
+      	box-sizing: border-box;
+      	display: inline-block;
+      	margin: 0px;
+      	padding: 0px;
+      	float: left;
+      	text-align: center;
+      	border-radius: 4px;
+    	}
+    	.contest .container:first-of-type {
+      	padding-right: 20px;
+    	}
+    	.contest .container:nth-of-type(2) {
+      	padding-left: 20px;
+    	}
+    	.prizes, .rules {
+      	background: rgba(255, 255, 255, 0.1);      	
+      	background-blend-mode: soft-light;
+      	padding: 25px;
+      	box-sizing: border-box;
+    	}
+    	.rules {
+      	height: 800px;
+    	}
+    	.prizes p {
+      	text-align: left;
+      	font-size: 30px;
+    	}
+    	.actions div {
+      	display: block;
+    	}
+    	.btn {
+      	color: white;
+      	text-transform: uppercase;
+      	font-size: 30px;
+      	border-radius: 4px;
+      	padding: 10px 0;
+      	font-weight: bold;
+      	
+    	}
+    	.actions .btn-container {
+      	width: 50%;
+      	display: inline-block;
+      	float: left;
+        box-sizing: border-box;
+    	}
+    	.actions .btn-container:first-of-type {
+      	padding-right: 10px;
+    	}
+    	.actions .btn-container:nth-of-type (2){
+      	padding-left: 10px;
+    	}
+    	.actions div a {
+      	display: block;
+    	}
+    	.btn.guide {
+      	background: #97a8ee;
+    	}
+    	.btn.contact {
+      	background: #4db7f1;
+    	}
+    	.btn.trade {
+      	background: #eb6b60;
+    	}
+    	.clearfix {
+      	clear: both;
+    	}
+    	.actions > div:first-of-type {
+      	margin-top: 20px;
+      	margin-bottom: 20px;
+    	}
+    	
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="intro">
+        <h2>Join BTCC’s Trading Contest!</h2>
+        <p>Up to 5,000 CNY up for grabs for<br> all traders who use Pro Exchange, BTCC’s new<br> advanced trading platform!</p>
+      </div>
+      <div class="info">
+        <p>BTCC is holding a trading contest for all users of its new advanced <br>trading platform Pro Exchange.</p>
+        <p>Trade on Pro Exchange from November 11 to November 17 for the chance <br>to win cash.</p>
+        <p>The more you trade, the more you stand to win!</p>
+      </div>
+      <div class="contest">
+        <div class="container">
+          <div class="rules">
+            <h3>Contest Rules</h3>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="prizes">
+            <h3>Prizes</h3>
+            <p>I. All traders who make at <br>least 111 trades will win</p>
+            <p>II. All traders who make at least <br>1,111 trades will win</p>
+            <p>III. All traders who make at least <br>11,111 trades will win</p>
+          </div>
+          <div class="actions">
+            <div>
+              <div class="btn-container">
+              <a class="btn guide">User Guide</a>
+              </div>
+              <div class="btn-container">
+              <a class="btn contact">Contact Us</a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div>
+              <a class="btn trade">Start Trading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
